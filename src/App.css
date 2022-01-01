@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+ /* ------  */
+
+.tableDiv{
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  border: 1px solid red;
+  border-collapse: collapse;
+} 
+
+
+.tableDiv>tbody>tr>td:nth-child(7):hover{
+  cursor: pointer;
+background-color: tomato;
+border-radius: 10px;
+  color: rgb(0, 0, 0);
+  transition: .8s;
+
+}
