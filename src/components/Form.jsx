@@ -162,7 +162,7 @@ export const Form = () => {
 
             </select>
 
-            <button onClick={() => { setpage(page < 2 ? 1 : page - 1) }}> Pre </button>
+            <button disabled={page === 1} onClick={() => { setpage(page < 2 ? 1 : page - 1) }}> Pre </button>
             <button onClick={() => { setpage(page + 1) }}> Next </button>
             <button onClick={() => { handleSort() }}>Sort By Ascending Salary </button>
 
